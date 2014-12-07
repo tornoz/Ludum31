@@ -10,7 +10,10 @@ import flixel.util.FlxSave;
 class Reg
 {
 	public static inline var BULLET = "assets/images/bullets.png";
+	public static inline var KORIBULLET = "assets/images/korribullet.png";
 	public static inline var PLAYER = "assets/images/player.png";
+	public static var won = false;
+	public static var difficulty  = 1;
 	/**
 	 * Generic levels Array that can be used for cross-state stuff.
 	 * Example usage: Storing the levels of a platformer.
